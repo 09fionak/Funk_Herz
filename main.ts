@@ -6,6 +6,10 @@ radio.onReceivedNumber(function (receivedNumber) {
         . # . # .
         . . # . .
         `)
+    basic.pause(1000)
+    basic.clearScreen()
+    basic.showString("hallo!")
+    basic.pause(1000)
 })
 input.onButtonPressed(Button.A, function () {
     radio.sendNumber(0)
